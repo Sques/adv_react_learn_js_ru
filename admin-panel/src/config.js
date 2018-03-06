@@ -1,14 +1,14 @@
 import firebase from 'firebase'
 
-export const appName = 'advreact-04-12'
+export const appName = 'advreact-16b50'
 
 const config = {
-    apiKey: "AIzaSyCmDWlgYIhtEr1pWjgKYds3iXKWBl9wbjE",
+    apiKey: "AIzaSyDOFI4XemVl6oLI5kTm4f7WqDzL-XOXl64",
     authDomain: `${appName}.firebaseapp.com`,
     databaseURL: `https://${appName}.firebaseio.com`,
     projectId: appName,
     storageBucket: "",
-    messagingSenderId: "95255462276"
+    messagingSenderId: "955900184624"
 }
 
 firebase.initializeApp(config)

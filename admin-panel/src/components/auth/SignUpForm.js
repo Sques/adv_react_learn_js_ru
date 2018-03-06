@@ -34,7 +34,7 @@ const validate = ({ email, password }) => {
     if (email && !validator.validate(email)) errors.email = 'incorrect email format'
 
     if (!password) errors.password = 'password is a required field'
-    if (password && password.length < 8) errors.password = 'password is to short'
+    if (password && password.length < 6) errors.password = 'password is to short'
 
     return errors
 }
